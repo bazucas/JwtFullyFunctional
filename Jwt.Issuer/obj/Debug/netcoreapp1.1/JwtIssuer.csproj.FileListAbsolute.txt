@@ -1,0 +1,12 @@
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\bin\Debug\netcoreapp1.1\JwtIssuer.deps.json
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\bin\Debug\netcoreapp1.1\JwtIssuer.runtimeconfig.json
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\bin\Debug\netcoreapp1.1\JwtIssuer.runtimeconfig.dev.json
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\bin\Debug\netcoreapp1.1\JwtIssuer.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\bin\Debug\netcoreapp1.1\JwtIssuer.pdb
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\bin\Debug\netcoreapp1.1\CoreFrameWork.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\bin\Debug\netcoreapp1.1\CoreFrameWork.pdb
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\obj\Debug\netcoreapp1.1\JwtIssuer.csprojResolveAssemblyReference.cache
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\obj\Debug\netcoreapp1.1\JwtIssuer.AssemblyInfo.cs
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\obj\Debug\netcoreapp1.1\JwtIssuer.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecurityServer\obj\Debug\netcoreapp1.1\JwtIssuer.pdb

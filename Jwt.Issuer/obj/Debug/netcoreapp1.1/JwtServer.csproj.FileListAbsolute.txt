@@ -1,0 +1,12 @@
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JwtServer.deps.json
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JwtServer.runtimeconfig.json
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JwtServer.runtimeconfig.dev.json
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JwtServer.dll
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JwtServer.pdb
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\CoreFrameWork.dll
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\CoreFrameWork.pdb
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JwtServer.csprojResolveAssemblyReference.cache
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JwtServer.AssemblyInfo.cs
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JwtServer.dll
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JwtServer.pdb

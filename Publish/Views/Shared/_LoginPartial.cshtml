@@ -1,0 +1,115 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Models.Application
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+  var id = "'" + UserManager.GetUserId(User) + "'";
+
+  <form id="frmLogout" asp-area="" asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm" class="navbar-right">
+    <ul class="nav navbar-nav">
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-user"></span> @UserManager.GetUserName(User)<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="@Url.Action("ChangePassword", "Manage")"><span class="glyphicon glyphicon-cog"></span>&nbsp;Change password</a></li>
+          <li><a href="#" onclick="editProfile(@id)"><span class="glyphicon glyphicon-edit"></span>&nbsp; Edit profiel</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#" onclick="$('#frmLogout').submit()"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Log out</a></li>
+        </ul>
+      </li>
+    </ul>
+  </form>
+}
+else
+{
+  <ul class="nav navbar-nav navbar-right">
+    <li><a asp-area="" asp-controller="Account" asp-action="Login"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+  </ul>
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+  <script type="text/javascript">
+    function editProfile(id) {
+      var title = 'Edit profile';
+
+      var dlg = new BootstrapDialog({
+        type: BootstrapDialog.TYPE_PRIMARY,
+        title: title,
+        message: 'Loading please wait...',
+        draggable: true,
+        onshown: function (dialog) {
+        },
+        buttons: [{
+          label: 'Close',
+          action: function (sender) {
+            sender.close();
+          }
+        },
+        {
+          id: 'btnsave',
+          label: 'Save',
+          icon: 'glyphicon glyphicon-ok',
+          cssClass: 'btn-success',
+          enabled: false,
+          action: function (sender) {
+            var $button = this;
+            var $form = $('#frmcrud').get(0);
+
+            $('#frmcrud').one('submit', function (e) {
+              var formData = $('#frmcrud :input').serialize();
+              e.preventDefault();
+              $.ajax({
+                cache: false,
+                url: $form.action,
+                type: $form.method,
+                data: formData,
+                complete: function (msg) {
+                  $button.enable();
+                  $button.stopSpin();
+                  sender.setClosable(true);
+                },
+                error: function (msg) {
+                  alert(msg.status + '\n' + msg.statusText);
+                },
+                success: function (document) {
+                  if (document.Success) {
+                    // updateGrid($table, document.Model);
+                    sender.close();
+                  } else {
+                    $('#frmcrud').html(document);
+                  }
+                }
+              });
+            });
+
+            $button.disable();
+            $button.spin();
+            sender.setClosable(false);
+
+            $('#frmcrud').submit();
+          }
+        }
+        ]
+      });
+
+      dlg.open();
+
+      var url = '/AspNetUser/Edit/' + id;
+      $.ajax({
+        url: url,
+        type: 'get',
+        cache: false,
+        context: { dialog: dlg },
+        success: function (data) {
+          this.dialog.$modalBody.html(data);
+          var btn = this.dialog.getButton('btnsave');
+          btn.enable();
+        }
+      });
+    }
+  </script>
+}

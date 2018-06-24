@@ -1,0 +1,13 @@
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Test.deps.json
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Test.runtimeconfig.json
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Test.runtimeconfig.dev.json
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Test.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Test.pdb
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\CoreFrameWork.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Shared.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\CoreFrameWork.pdb
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Shared.pdb
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\Jwt.Test.csprojResolveAssemblyReference.cache
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\Jwt.Test.AssemblyInfo.cs
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\Jwt.Test.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\Jwt.Test.pdb

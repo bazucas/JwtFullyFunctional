@@ -1,0 +1,9 @@
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\bin\Debug\netcoreapp1.1\Jwt.Shared.deps.json
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\bin\Debug\netcoreapp1.1\Jwt.Shared.dll
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\bin\Debug\netcoreapp1.1\Jwt.Shared.pdb
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\obj\Debug\netcoreapp1.1\Jwt.Shared.csprojResolveAssemblyReference.cache
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\obj\Debug\netcoreapp1.1\Jwt.Shared.csproj.CoreCompileInputs.cache
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\obj\Debug\netcoreapp1.1\Jwt.Shared.AssemblyInfoInputs.cache
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\obj\Debug\netcoreapp1.1\Jwt.Shared.AssemblyInfo.cs
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\obj\Debug\netcoreapp1.1\Jwt.Shared.dll
+D:\Development\C#\JwtDemo\Solution\Jwt.Shared\obj\Debug\netcoreapp1.1\Jwt.Shared.pdb

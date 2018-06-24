@@ -1,0 +1,103 @@
+﻿@{
+  @using System.Security.Claims
+  ViewBag.Title = "Schutters";
+
+  Boolean isMaster = User.IsInRoles("Admin", "AccountMaster");
+  Boolean isAdmin = User.IsInRoles("Admin");
+}
+
+@section css {
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css">
+}
+
+<div id="toolbar" class="btn-group">
+  @{ if (isMaster)
+    {
+      <button id="btnAdd" title="Add" class="btn btn-default" type="button"><i class="glyphicon glyphicon-plus"></i>&nbsp;Add</button>
+      <button id="btnEdit" title="Edit" class="btn btn-default" type="button"><i class="glyphicon glyphicon-pencil"></i>&nbsp;Edit</button>
+    }
+    if (isAdmin)
+    {
+      <button id="btnDelete" title="Delete" class="btn btn-default" type="button"><i class="glyphicon glyphicon-trash"></i>&nbsp;Delete</button>
+    }
+  }
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-push-3">
+      <div id="crudMsg">
+      </div>
+    </div>
+  </div>
+
+  <table id="table" data-url="Load"
+         data-unique-id="Id"
+         data-sort-name="LastName"
+         data-sort-order="asc"
+         data-crudname="FirstName"
+         data-pagination="true"
+         data-single-select="true"
+         data-classes="table table-condensed table-hover table-striped"
+         data-toggle="table"
+         data-side-pagination="server"
+         data-show-refresh="true"
+         data-show-toggle="false"
+         data-show-columns="false"
+         data-search="true"
+         data-toolbar="#toolbar"
+         data-page-size="20"
+         data-page-list="[10, 20, 50, 100]">
+    <thead style="background-color:  #b5c5ca;">
+      <tr>
+        <th data-field="Id" data-visible="false">Id</th>
+        <th data-field="ApsNr" data-sortable="true">ASP Nr</th>
+        <th data-field="NickName" data-sortable="true">Bijnaam</th>
+        <th data-field="FirstName" data-sortable="true">Voornaam</th>
+        <th data-field="LastName" data-sortable="true">AchterNaam</th>
+        <th data-field="Email" data-sortable="true">Email</th>
+        <th data-field="PhoneNumber" data-sortable="true">Tel</th>
+        <th data-field="PhoneNumberMobile" data-sortable="true">Tel mobiel</th>
+        <th data-field="IPSCnr" data-sortable="true">ISPC Nr</th>
+        <th data-field="IsActive" data-formatter="checkboxFormatter" data-sortable="true" data-halign="center" data-align="center">Actief</th>
+      </tr>
+    </thead>
+  </table>
+</div>
+
+
+@section scripts {
+  @{ await Html.RenderPartialAsync("CrudScriptsPartial"); }
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var $table = $('#table');
+
+      @if (isMaster) { <text>
+      $('#btnAdd').click(function () {
+        editDialog($table);
+      });
+      
+      $('#btnEdit').click(function () {
+        editDialogHighlighted($table);
+      });
+
+      // register loaded rows to row-click event
+      $table.on('dbl-click-row.bs.table', function ($element, row, $tr) {
+        editDialogHighlighted($table, $tr);
+      });
+
+      </text>}
+
+      // register loaded rows to row-click event
+      $table.on('click-row.bs.table', function ($element, row, $tr) {
+        highLightRow($tr);
+      });
+
+      // hook events to loaded rows
+      $table.on('load-success.bs.table', function (data) {
+
+      });
+    });
+  </script>
+}

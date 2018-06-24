@@ -1,0 +1,97 @@
+﻿@{
+  @using System.Security.Claims
+  ViewBag.Title = "Wedstrijden";
+
+  Boolean isMaster = User.IsInRoles("Admin", "MatchMaster");
+}
+
+@section css {
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css">
+}
+
+<div id="toolbar">
+  @{if (isMaster)
+    {
+      <button id="btnAdd" title="Add item" class="btn btn-default" type="button"><i class="glyphicon glyphicon-plus"></i>&nbsp;Add</button>
+    }
+  }
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-push-3">
+      <div id="crudMsg">
+      </div>
+    </div>
+  </div>
+  <table id="table" data-url="Load"
+         data-unique-id="Id"
+         data-sort-name="Code"
+         data-sort-order="asc"
+         data-crudname="Code"
+         data-pagination="false"
+         data-classes="table table-condensed table-hover table-striped"
+         data-toggle="table"
+         data-side-pagination="server"
+         data-show-refresh="true"
+         data-show-toggle="false"
+         data-show-columns="false"
+         data-search="true"
+         data-toolbar="#toolbar"
+         data-page-size="100"
+         data-page-list="[20, 50, 100]">
+    <thead style="background-color:  #b5c5ca;">
+      <tr>
+        @*<th data-field="state" data-checkbox="true"></th>*@
+        <th data-field="Id" data-formatter="editFormatter" data-visible=@(isMaster ? "true":"false") data-halign="center" data-align="center">Match</th>
+        <th data-field="Code" data-formatter="hrefFormatter" data-sortable="true">Deelnemers</th>
+        <th data-field="MatchDate" data-sortable="true">Datum</th>
+        <th data-field="StageNull" data-sortable="true">Stage nul</th>
+        <th data-field="Location" data-sortable="true">Locatie</th>
+        @if (isMaster)
+        {
+          <th data-field="" data-formatter="delFormatter" data-visible="true" data-halign="center" data-align="center">Delete</th>
+        }
+        <th data-field="Organisation" data-sortable="true" data-visible="false">Organistatie</th>
+      </tr>
+    </thead>
+  </table>
+</div>
+
+
+@section scripts {
+  @{ await Html.RenderPartialAsync("CrudScriptsPartial"); }
+
+  <script type="text/javascript">
+
+    function hrefFormatter(value, row) {
+      var id = row.Id;
+      return '<a href="' + '#' + '">' + value + '</a>';
+    }
+
+    $(document).ready(function () {
+      var $table = $('#table');
+
+      $('#btnAdd').click(function () {
+        editDialog($table);
+      });
+
+      // register loaded rows to row-click event
+      $table.on('click-row.bs.table', function ($element, row, $tr) {
+        highLightRow($tr);
+      });
+
+      // hook events to loaded rows
+      $table.on('load-success.bs.table', function (data) {
+        $(this).off("click", "#btnEdit").on("click", "#btnEdit", function (event) {
+          editDialog($table, getId(this));
+        });
+
+        $(this).off("click", "#btnDel").on("click", "#btnDel", function (event) {
+          event.stopPropagation();
+          deleteItem($table, getId(this));
+        });
+      });
+    });
+  </script>
+}

@@ -1,0 +1,17 @@
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\Jwt.Issuer.deps.json
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\Jwt.Issuer.runtimeconfig.json
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\Jwt.Issuer.runtimeconfig.dev.json
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\Jwt.Issuer.dll
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\Jwt.Issuer.pdb
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\CoreFrameWork.dll
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\Jwt.Shared.dll
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\CoreFrameWork.pdb
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\bin\Debug\netcoreapp2.0\Jwt.Shared.pdb
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\Jwt.Issuer.csprojAssemblyReference.cache
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\Jwt.Issuer.csproj.CoreCompileInputs.cache
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\Jwt.Issuer.AssemblyInfoInputs.cache
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\Jwt.Issuer.AssemblyInfo.cs
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\Jwt.Issuer.csproj.CopyComplete
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\Jwt.Issuer.dll
+C:\Users\Luís\Desktop\jwt\Jwt.Issuer\obj\Debug\netcoreapp2.0\Jwt.Issuer.pdb

@@ -1,0 +1,15 @@
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\Jwt.Issuer.deps.json
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\Jwt.Issuer.runtimeconfig.json
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\Jwt.Issuer.runtimeconfig.dev.json
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\Jwt.Issuer.dll
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\Jwt.Issuer.pdb
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\CoreFrameWork.dll
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\Jwt.Shared.dll
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\CoreFrameWork.pdb
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\bin\Debug\netcoreapp1.1\Jwt.Shared.pdb
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\obj\Debug\netcoreapp1.1\Jwt.Issuer.csprojResolveAssemblyReference.cache
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\obj\Debug\netcoreapp1.1\Jwt.Issuer.csproj.CoreCompileInputs.cache
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\obj\Debug\netcoreapp1.1\Jwt.Issuer.AssemblyInfoInputs.cache
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\obj\Debug\netcoreapp1.1\Jwt.Issuer.AssemblyInfo.cs
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\obj\Debug\netcoreapp1.1\Jwt.Issuer.dll
+D:\Development\C#\JwtDemo\Solution\Jwt.Issuer\obj\Debug\netcoreapp1.1\Jwt.Issuer.pdb

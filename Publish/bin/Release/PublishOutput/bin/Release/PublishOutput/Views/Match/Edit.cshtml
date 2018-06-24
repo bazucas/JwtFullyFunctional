@@ -1,0 +1,60 @@
+﻿@model  Models.Match
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<form id="frmcrud" asp-controller="Match" asp-action="Edit" method="post" class="form-horizontal">
+  <input asp-for=Id type="hidden" />
+  <input asp-for=RowVersion type="hidden" />
+  <div asp-validation-summary=ModelOnly class="text-danger"></div>
+
+  <div class="modal-body">
+
+    <div class="form-group">
+      <label asp-for=Code class="control-label col-md-3"></label>
+      <div class="col-md-9">
+        <input asp-for=Code asp-crud-dictionary=@ViewBag.CrudDictionary />
+        <span asp-validation-for=Code class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label asp-for=MatchDate class="control-label col-md-3"></label>
+      <div class="col-md-9">
+        <input asp-for=MatchDate asp-crud-dictionary=@ViewBag.CrudDictionary />
+        <span asp-validation-for=MatchDate class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label asp-for=Location class="control-label col-md-3"></label>
+      <div class="col-md-9">
+        <input asp-for=Location asp-crud-dictionary=@ViewBag.CrudDictionary />
+        <span asp-validation-for=Location class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label asp-for=Organisation class="control-label col-md-3"></label>
+      <div class="col-md-9">
+        <input asp-for=Organisation asp-crud-dictionary=@ViewBag.CrudDictionary />
+        <span asp-validation-for=Organisation class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label asp-for=StageNull class="control-label col-md-3"></label>
+      <div class="col-md-9">
+        <input asp-for=StageNull asp-crud-dictionary=@ViewBag.CrudDictionary />
+        <span asp-validation-for=StageNull class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label asp-for=Remarks class="control-label col-md-3"></label>
+      <div class="col-md-9">
+        <input asp-for=Remarks asp-crud-dictionary=@ViewBag.CrudDictionary />
+        <span asp-validation-for=Remarks class="text-danger"></span>
+      </div>
+    </div>
+  </div>
+</form>
+

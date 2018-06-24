@@ -1,0 +1,15 @@
+﻿@model  Models.AspNetUser
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="container-fluid">
+  <div class="row">
+    <h3>Profiel @Model.FirstName @Model.LastName </h3>
+    <div class="row">
+      @Html.Partial("Edit", Model);
+    </div>
+    <div class="form-group">
+      <input class="btn" type="button" value="Cancel">
+      <input class="btn btn-primary" onclick="$('#frmcrud').submit();" value ="Save" />
+    </div>
+  </div>
+</div>

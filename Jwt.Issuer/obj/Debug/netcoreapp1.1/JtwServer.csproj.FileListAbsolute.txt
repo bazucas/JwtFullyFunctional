@@ -1,0 +1,12 @@
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JtwServer.deps.json
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JtwServer.runtimeconfig.json
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JtwServer.runtimeconfig.dev.json
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JtwServer.dll
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\JtwServer.pdb
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JtwServer.csprojResolveAssemblyReference.cache
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JtwServer.AssemblyInfo.cs
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JtwServer.dll
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\JtwServer.pdb
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\CoreFrameWork.dll
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\bin\Debug\netcoreapp1.1\CoreFrameWork.pdb
+D:\Development\C#\WebArchitectureDemo\Application\JtwServer\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

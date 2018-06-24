@@ -1,0 +1,9 @@
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\bin\Debug\netcoreapp2.0\CoreFrameWork.deps.json
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\bin\Debug\netcoreapp2.0\CoreFrameWork.dll
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\bin\Debug\netcoreapp2.0\CoreFrameWork.pdb
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\obj\Debug\netcoreapp2.0\CoreFrameWork.csprojAssemblyReference.cache
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\obj\Debug\netcoreapp2.0\CoreFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\obj\Debug\netcoreapp2.0\CoreFrameWork.AssemblyInfoInputs.cache
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\obj\Debug\netcoreapp2.0\CoreFrameWork.AssemblyInfo.cs
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\obj\Debug\netcoreapp2.0\CoreFrameWork.dll
+C:\Users\Luís\Desktop\jwt\CoreFrameWork\obj\Debug\netcoreapp2.0\CoreFrameWork.pdb

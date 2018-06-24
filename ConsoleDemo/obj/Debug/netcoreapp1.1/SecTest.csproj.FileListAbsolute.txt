@@ -1,0 +1,11 @@
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\SecTest.deps.json
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\SecTest.runtimeconfig.json
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\SecTest.runtimeconfig.dev.json
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\SecTest.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\SecTest.csprojResolveAssemblyReference.cache
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\SecTest.AssemblyInfo.cs
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\SecTest.pdb
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\SecTest.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\obj\Debug\netcoreapp1.1\SecTest.pdb
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Shared.dll
+D:\Development\C#\WebArchitectureDemo\Application\SecTest\bin\Debug\netcoreapp1.1\Jwt.Shared.pdb
